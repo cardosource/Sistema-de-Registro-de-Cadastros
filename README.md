@@ -1,1 +1,1 @@
-# Sistema de-Registro de Cadastros
+# Sistema de Registro de Cadastros
