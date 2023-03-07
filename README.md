@@ -6,4 +6,3 @@ Este projeto é um modelo de cadastro simplificado para fins educacionais e de a
 
 
 
-O objetivo do projeto é criar uma tabela que exiba informações sobre pessoas cadastradas, como matrícula, nome e cargo, permitindo que novas entradas sejam adicionadas e existentes sejam editadas ou excluídas.
