@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.menu{
+ background-color: #211a25;
+ height: 59px;  
+ width: 100%; 
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ position: fixed;
+ top: 0;
+ 
+
+ 
+}
+
+
+.menu a{
+    text-decoration: none; /* remove o sublinhado */
+    color:  #f5f6f6;
+    font-family: 'Golos Text', sans-serif;
+    margin-right: 50px;
+
+}
+.menu li{
+    list-style: none;
+}
+
+.respectivo{
+    width: 100%;
+    height:100vh;
+    
+    
+
+ 
+
+
+}
+
+.cadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+    height: 150px;
+    width: 100%;
+}
+.info{
+    width: 500px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input[type="text"],input[type="date"]{
+    
+    border: 1px solid #211a25;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 447px;
+    color: #251a1a;
+    
+  }
+
+
+  input[type="date"].shake,input[type="text"].shake {
+    animation: shake 200ms;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(5px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  input[type="button"]{
+    height: 40px;
+    width: 320px;
+  
+    margin-top: 10px;
+    margin-left: 120px;
+    border:0;
+    background-color: #211a25;
+    border-radius: 4px;
+    color: #F5F7F6;
+    font-size: 16px;
+    font-weight: bold;
+ 
+    cursor: pointer;
+    
+  }
+
+#separador{
+
+    height: 1px;
+    width: 50%;
+    background-color: #414553;
+    margin-left: 25%;
+
+}
+  .detalhe{
+    margin-top: 2px;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+  
+    height: 171px;
+    width: 100%;
+    
+    
+  }
+  
+.area{
+   
+    width: 500px;
+    height: 231px;
+}
+.professor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    height: 141px;
+    
+
+}
+
+.aluno{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.botao{
+  border: 1px solid black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+
+}
+#posicao{
+  width: 8%;
+  height: 90px;
+  background-color: #414553;
+  display: flex;
+  align-items: center;
+  
+}
+
+.registro{
+    margin: 100px 0px 0px 0px;
+    height: 140px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Golos Text', sans-serif;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+
+  
+  
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #211a25;
+}
+
+p{
+    font-family: 'Golos Text', sans-serif;
+    color: #f5f6f6;
+}
+
+/*  responsividade */
+
+@media(   max-width:1000px){
+  .cadastrar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 105px;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+    
+#separador{
+  margin-top: 55px;
+}
+.detalhe {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 171px;
+  width: 100%;
+}
+
+.botao{
+  width: 100%;
+  height: 90px;
+  margin-top: 69px;
+
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.registro {
+  margin-top: -110px;
+  height: 140px;
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-top: 105px;
+}
+input[type="button"]{
+  height: 40px;
+  width: 320px;
+
+  margin-top: 10px;
+  margin-left: 120px;
+  border:0;
+  background-color: #211a25;
+  border-radius: 4px;
+  color: #F5F7F6;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  
+}
+}
