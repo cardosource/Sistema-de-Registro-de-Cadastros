@@ -1,6 +1,9 @@
 # Sistema de Registro de Cadastros
 
-Este projeto é um modelo de cadastro simplificado para fins educacionais e de aprendizado. O projeto é composto por um formulário HTML que permite o cadastro de informações de professores e alunos. Além disso, foi adicionado um componente JavaScript para manipular as informações inseridas pelo usuário.
+Introdução
+
+
+O projeto é um sistema simples de cadastro de alunos e professores com a criação de duas classes - Aluno e Professor - que herdam atributos e métodos da classe Pessoa. Além disso, há também uma classe Seletor que é responsável por selecionar elementos HTML da página e uma funcionalidade que cria uma tabela para exibir os dados cadastrados.
 
 
 
